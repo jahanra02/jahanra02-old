@@ -1,17 +1,19 @@
 title: "Jahanara Suchi"
 name: "Jahanara Suchi"
 description: "PhD Applicant | Computer Science | Machine Learning | Artificial Intelligence"
+
 url: "https://jahanra02.github.io"
+baseurl: ""
 repository: "jahanra02/jahanra02.github.io"
-github: "jahanra02"
+
 author:
-  name: "Jahanara Suchi"
   avatar: "/assets/images/new (1).png"
+  name: "Jahanara Suchi"
   bio: "PhD applicant interested in Machine Learning, Deep Learning, Explainable AI, and Healthcare AI."
   location: "Dhaka, Bangladesh"
   employer: "Independent Researcher"
   email: "jahanara.suchi41985@gmail.com"
+  github: "jahanra02"
+  linkedin: "jahanara-suchi-218b78208"
   googlescholar: ""
   orcid: ""
-  linkedin: "jahanara-suchi-218b78208"
-  github: "jahanra02"
