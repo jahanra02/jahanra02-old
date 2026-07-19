@@ -15,7 +15,7 @@ name                     : &name "Jahanara Suchi"
 description              : &description "PhD Applicant | Computer Science | Machine Learning | Artificial Intelligence"
 
 url                      : "https://jahanra02.github.io" # base hostname & protocol
-baseurl                  : "/jahanra02-old" # subpath of your site
+baseurl                  : "/jahanra02-" # subpath of your site
 
 repository               : "https://github.com/jahanra02/jahanra02-"
 
