@@ -9,9 +9,10 @@ author_profile: true
 
 I am a recent graduate from American International University-Bangladesh (AIUB) with a Bachelor's degree in Computer Science and Engineering (CSE).
 
-My research focuses on Machine Learning, Artificial Intelligence, Explainable Artificial Intelligence (XAI), and Deep Learning.
+My research focuses on **Machine Learning**, **Artificial Intelligence**, **Explainable Artificial Intelligence (XAI)**, and **Deep Learning**.
 
 My published research includes:
+
 - A comprehensive review on AI-based Alzheimer's disease diagnosis.
 - Predicting student academic success using an optimized XGBoost framework with feature engineering and model evaluation.
 
@@ -26,4 +27,10 @@ My published research includes:
 - Financial Fraud Detection
 - Trustworthy Artificial Intelligence
 
-I am currently seeking fully funded PhD positions in Computer Science starting Fall 2027.
+## Research Goal
+
+My goal is to develop reliable, interpretable, and data-driven AI systems that solve real-world problems using modern machine learning techniques.
+
+I am currently seeking **fully funded PhD positions in Computer Science for Fall 2027**.
+
+Feel free to contact me for research collaborations or PhD opportunities.
