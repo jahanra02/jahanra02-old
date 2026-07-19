@@ -1,20 +1,292 @@
-title: "Jahanara Suchi"
-name: "Jahanara Suchi"
-description: "PhD Applicant | Computer Science | Machine Learning | Artificial Intelligence"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
+# server process.
 
-url: "https://jahanra02.github.io"
-baseurl: "/jahanra02-old"
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default" # "default", "air", "sunrise", "mint", "dirt", "contrast"
+title                    : "Jahanara Suchi"
+title_separator          : "-"
+name                     : &name "Jahanara Suchi"
+description              : &description "PhD Applicant | Computer Science | Machine Learning | Artificial Intelligence"
 
-repository: "jahanra02/jahanra02-old"
+url                      : "https://jahanra02.github.io" # base hostname & protocol
+baseurl                  : "/jahanra02-old" # subpath of your site
 
+repository               : "jahanra02/jahanra02-old"
+
+# Site Author - controls sidebar author content.
 author:
-  avatar: "/assets/images/new (1).png"
-  name: "Jahanara Suchi"
-  bio: "PhD applicant interested in Machine Learning, Deep Learning, Explainable AI, and Healthcare AI."
-  location: "Dhaka, Bangladesh"
-  employer: "Independent Researcher"
-  email: "jahanara.suchi41985@gmail.com"
-  github: "jahanra02"
-  linkedin: "jahanara-suchi-218b78208"
-  googlescholar: ""
-  orcid: ""
+  avatar                 : "profile.png"
+  name                   : "Jahanara Suchi"
+  pronouns               :
+  bio                    : "PhD applicant interested in Machine Learning, Deep Learning, Explainable AI, and Healthcare AI."
+  location                : "Dhaka, Bangladesh"
+  employer               : "Independent Researcher"
+  uri                    :
+  email                  : "jahanara.suchi41985@gmail.com"
+  academia               :
+  arxiv                  :
+  googlescholar          :
+  inspire-hep            :
+  impactstory            :
+  orcid                  :
+  semantic               :
+  ssrn                   :
+  pubmed                 :
+  researchgate            :
+  scopus                 :
+  zotero                 :
+  bitbucket              :
+  codepen                :
+  dribbble               :
+  github                 : "jahanra02"
+  kaggle                 :
+  stackoverflow          :
+  artstation              :
+  bluesky                :
+  facebook                :
+  flickr                 :
+  foursquare             :
+  goodreads               :
+  google_plus            :
+  keybase                :
+  instagram              :
+  lastfm                 :
+  linkedin               : "jahanara-suchi-218b78208"
+  mastodon               :
+  medium                 :
+  pinterest               :
+  soundcloud              :
+  steam                   :
+  telegram               :
+  tumblr                  :
+  twitter                :
+  vine                    :
+  weibo                  :
+  wikipedia               :
+  xing                    :
+  youtube                 :
+  zhihu                  :
+
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+
+teaser                   :
+breadcrumbs               : false
+words_per_minute          : 160
+future                   : true
+read_more                 : "disabled"
+talkmap_link              : false
+
+comments:
+  provider               :
+  disqus:
+    shortname             :
+  discourse:
+    server                :
+  facebook:
+    appid                 :
+    num_posts             :
+    colorscheme           :
+  staticman:
+    allowedFields          : ['name', 'email', 'url', 'message']
+    branch                : "gh-pages"
+    commitMessage          : "New comment."
+    filename               : comment-{@timestamp}
+    format                 : "yml"
+    moderation             : true
+    path                   : "_data/comments/{options.slug}"
+    requiredFields         : ['name', 'email', 'message']
+    transforms:
+      email                : "md5"
+    generatedFields:
+      date:
+        type               : "date"
+        options:
+          format           : "iso8601"
+
+atom_feed:
+  hide                    : false
+  path                    :
+
+google_site_verification  :
+bing_site_verification    :
+alexa_site_verification   :
+yandex_site_verification  :
+
+twitter:
+  username                : &twitter
+facebook:
+  username                :
+  app_id                  :
+  publisher                :
+og_image                  :
+og_description            :
+
+social:
+  type                    :
+  name                    :
+  links                   :
+
+analytics:
+  provider                : "false"
+  google:
+    tracking_id            :
+
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding                  : "utf-8"
+markdown_ext               : "markdown,mkdown,mkdn,mkd,md"
+
+markdown                  : kramdown
+highlighter                : rouge
+lsi                        : false
+excerpt_separator          : "\n\n"
+incremental                : false
+
+kramdown:
+  input                    : GFM
+  hard_wrap                : false
+  auto_ids                : true
+  footnote_nr               : 1
+  entity_output             : as_char
+  toc_levels                : 1..6
+  smart_quotes               : lsquo,rsquo,ldquo,rdquo
+  enable_coderay             : false
+
+collections:
+  teaching:
+    output                 : true
+    permalink               : /:collection/:path/
+  publications:
+    output                 : true
+    permalink               : /:collection/:path/
+  portfolio:
+    output                 : true
+    permalink               : /:collection/:path/
+  talks:
+    output                 : true
+    permalink               : /:collection/:path/
+
+defaults:
+  - scope:
+      path                  : ""
+      type                  : posts
+    values:
+      layout                : single
+      author_profile        : true
+      read_time              : true
+      comments              : true
+      share                 : true
+      related                : true
+  - scope:
+      path                  : ""
+      type                  : pages
+    values:
+      layout                : single
+      author_profile        : true
+  - scope:
+      path                  : ""
+      type                  : teaching
+    values:
+      layout                : single
+      author_profile        : true
+      share                 : true
+      comments              : true
+  - scope:
+      path                  : ""
+      type                  : publications
+    values:
+      layout                : single
+      author_profile        : true
+      share                 : true
+      comments              : true
+  - scope:
+      path                  : ""
+      type                  : portfolio
+    values:
+      layout                : single
+      author_profile        : true
+      share                 : true
+      comment                : true
+  - scope:
+      path                  : ""
+      type                  : talks
+    values:
+      layout                : talk
+      author_profile        : true
+      share                 : true
+
+sass:
+  sass_dir                 : _sass
+  style                    : compressed
+
+permalink                  : /:categories/:title/
+timezone                   : Etc/UTC
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+category_archive:
+  type                     : liquid
+  path                     : /categories/
+tag_archive:
+  type                     : liquid
+  path                     : /tags/
+
+compress_html:
+  clippings                : all
+  ignore:
+    envs                   : development
