@@ -1,6 +1,7 @@
 ---
 title: "Optimizing XGBoost for Predicting Student Academic Success: A Unified Approach to Feature Engineering and Model Evaluation"
 collection: publications
+category: conferences
 permalink: /publication/optimizing-xgboost-student-academic-success
 date: 2026-04-01
 venue: "2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence & Networking (QPAIN)"
