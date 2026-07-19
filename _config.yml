@@ -12,7 +12,7 @@ site_theme               : "default" # "default", "air", "sunrise", "mint", "dir
 title                    : "Jahanara Suchi"
 title_separator          : "-"
 name                     : &name "Jahanara Suchi"
-description              : &description "PhD Applicant | Computer Science | Machine Learning | Artificial Intelligence"
+description              : &description "PhD Applicant | Computer Science | Machine Learning | Deep Learning | Data Science | Artificial Intelligence"
 
 url                      : "https://jahanra02.github.io" # base hostname & protocol
 baseurl                  : "/jahanra02-" # subpath of your site
