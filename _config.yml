@@ -17,7 +17,7 @@ description              : &description "PhD Applicant | Computer Science | Mach
 url                      : "https://jahanra02.github.io" # base hostname & protocol
 baseurl                  : "/jahanra02-old" # subpath of your site
 
-repository               : "jahanra02/jahanra02-old"
+repository               : "https://github.com/jahanra02/jahanra02-"
 
 # Site Author - controls sidebar author content.
 author:
