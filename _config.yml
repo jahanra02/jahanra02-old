@@ -2,9 +2,10 @@ title: "Jahanara Suchi"
 name: "Jahanara Suchi"
 description: "PhD Applicant | Computer Science | Machine Learning | Artificial Intelligence"
 
-url: "https://jahanra02.github.io/jahanra02-old/"
+url: "https://jahanra02.github.io"
+baseurl: "/jahanra02-old"
 
-repository: "jahanra02/jahanra02.github.io/jahanra02-old/"
+repository: "jahanra02/jahanra02-old"
 
 author:
   avatar: "/assets/images/new (1).png"
