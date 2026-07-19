@@ -1,11 +1,12 @@
 ---
-title: "Advances in Alzheimer’s Disease Diagnosis with Machine Learning and Deep Learning Techniques: A Comprehensive Review"
+title: "Advances in Alzheimer's Disease Diagnosis with Machine Learning and Deep Learning Techniques: A Comprehensive Review"
 collection: publications
+category: manuscripts
 permalink: /publication/advances-in-alzheimers-disease-diagnosis
 date: 2026-02-04
 venue: "Artificial Intelligence Review"
 paperurl: "https://doi.org/10.1007/s10462-025-11476-4"
-citation: "Alam, T., Suchi, J., Saha, A., Pathan, F., Das, A., Kabir, M. M., & Mridha, M. F. (2026). Advances in Alzheimer’s Disease Diagnosis with Machine Learning and Deep Learning Techniques: A Comprehensive Review. Artificial Intelligence Review, 59, 90. https://doi.org/10.1007/s10462-025-11476-4"
+citation: "Alam, T., Suchi, J., Saha, A., Pathan, F., Das, A., Kabir, M. M., & Mridha, M. F. (2026). Advances in Alzheimer's Disease Diagnosis with Machine Learning and Deep Learning Techniques: A Comprehensive Review. Artificial Intelligence Review, 59, 90. https://doi.org/10.1007/s10462-025-11476-4"
 ---
 
 ## Abstract
